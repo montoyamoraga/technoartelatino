@@ -1,7 +1,6 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 import Img from "gatsby-image"
@@ -18,6 +17,8 @@ const IndexPage = (props) => (
 
     </div>
 
+    <Img fluid={props.data.flyer.childImageSharp.fluid} />
+
     <h1>Michelle Hessel</h1>
 
     <Img fluid={props.data.michelle.childImageSharp.fluid} />
@@ -28,7 +29,7 @@ const IndexPage = (props) => (
 
     <h1>Cristobal Valenzuela</h1>
 
-    <Img fluid={props.data.michelle.childImageSharp.fluid} />
+    <Img fluid={props.data.cris.childImageSharp.fluid} />
 
     <br/>
 
@@ -36,13 +37,13 @@ const IndexPage = (props) => (
 
     <h1>Sharon Lee De La Cruz</h1>
 
-    <Img fluid={props.data.michelle.childImageSharp.fluid} />
+    <Img fluid={props.data.sharon.childImageSharp.fluid} />
 
     <br/>
 
     <p>Sharon is an artist and activist of Latin descend from New York City. She earned a BFA from The Cooper Union, is a Fulbright scholar, and obtained her Masters at NYU’s ITP program (Interactive Telecommunications Program). Sharon’s work ranges from comics to interactive sculptures. She enjoys creating tools and activities that bridge the accessibility gap in STEM education. Sharon’s work is in the intersection of tech, art, and social justice. She currently lives in New Jersey and is the Assistant Director of The StudioLab, a creative tech lab, at Princeton University. You can learn more about her at http://unoseistres.com</p>
 
-    <h1>Cejo Vega Cebrian</h1>
+    <h1>Cejo</h1>
 
     <Img fluid={props.data.michelle.childImageSharp.fluid} />
 
@@ -52,7 +53,7 @@ const IndexPage = (props) => (
 
     <h1>Ari Melenciano</h1>
 
-    <Img fluid={props.data.michelle.childImageSharp.fluid} />
+    <Img fluid={props.data.ari.childImageSharp.fluid} />
 
     <br/>
 
@@ -62,7 +63,7 @@ const IndexPage = (props) => (
 
     <h1>Aarón Montoya-Moraga</h1>
 
-    <Img fluid={props.data.michelle.childImageSharp.fluid} />
+    <Img fluid={props.data.aaron.childImageSharp.fluid} />
 
     <br/>
 
@@ -70,15 +71,15 @@ const IndexPage = (props) => (
 
     <h1>Martin Calvino</h1>
 
-    <Img fluid={props.data.michelle.childImageSharp.fluid} />
+    <Img fluid={props.data.martin.childImageSharp.fluid} />
 
     <br/>
 
     <p>Martin is a multimedia artist from Uruguay currently living in New Jersey. He is currently artist-in-residence at the 'Art and Artificial Intelligence Lab' at the Computer Science Department of Rutgers University. He was a Senior Research Assistant at the School of Creative Media, City University of Hong Kong; and previously attended the Interactive Telecommunications Program (ITP) at Tisch School of the Arts, New York University. He holds degrees in Plant Molecular Genetics from Rutgers University (PhD) and Tsukuba University (MS), and in Molecular Biology from the University of the Republic of Uruguay (BS). He conducted studies and works under the sponsorship of prestigious fellowships such as Fulbright (USA) and Monbukagakusho (Japan), and in 2012 received the Eileen Brennan Graduate Research Award from the department of Plant Biology & Pathology at Rutgers in recognition for his scientific output. Martin’s interest and work focuses on the integration of Art & Science, New Media Art and Tango, and artistic applications of Machine Learning and Artificial Intelligence. His work has been featured in CLOT Magazine, Interalia Magazine, and ART UNCOVERED radio podcast; whereas his texts have been published by NOEMA Magazine and Leonardo Journal. Martin's audiovisual work has been screened at MOTiF Film Festival and Proyecto Rotatoria. Prior to 'TechnoArte Latino', Martin's curatorial project included new media art & Uruguayan culture event at the Consulate General of Uruguay in New York City. You can learn more about him at https://www.martincalvino.co</p>
 
-    <h1>Fanny Fazakas (guest artist)</h1>
+    <h1>Fanni Fazakas (guest artist)</h1>
 
-    <Img fluid={props.data.michelle.childImageSharp.fluid} />
+    <Img fluid={props.data.fanni.childImageSharp.fluid} />
 
     <br/>
 
@@ -91,6 +92,41 @@ export default IndexPage
 
 export const pageQuery = graphql`
 query {
+  aaron: file(relativePath: { eq: "aaron.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  ari: file(relativePath: { eq: "ari.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  cris: file(relativePath: { eq: "cris.png" }) {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  fanni: file(relativePath: { eq: "fanni.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  martin: file(relativePath: { eq: "martin.webp" }) {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
   michelle: file(relativePath: { eq: "michelle.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 500) {
@@ -98,5 +134,20 @@ query {
       }
     }
   }
+  sharon: file(relativePath: { eq: "sharon.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  flyer: file(relativePath: { eq: "flyer.webp" }) {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+
 }
 `
