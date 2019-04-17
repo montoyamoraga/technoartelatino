@@ -721,7 +721,7 @@
       "resolve": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "e494f61d7e0b37a1d8a3d1f85e477e90",
+      "version": "f4370f639658104c7257875ceaa69a3f",
       "pluginOptions": {
         "plugins": []
       },
@@ -805,7 +805,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "9a3205ea196c307051ccccfe28382e34",
+        "contentDigest": "8e7aee0f13bd74c2548ef71461127655",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -915,20 +915,20 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter",
+        "title": "TechnoArte Latino",
         "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
-        "author": "@gatsbyjs"
+        "author": "@montoyamoraga"
       },
       "port": 8001,
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-17T22:40:28.951Z",
+      "buildTime": "2019-04-17T22:50:53.996Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "fa96c36cb5e3f9ebcd7f566e5861b27b",
+        "contentDigest": "ada676cd377c37d88af330993511e99c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -938,7 +938,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "854e1a7f3a3953a6ffd6a281648459c3",
+        "contentDigest": "46bd4c11e94644b59aef20213f53cb62",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -949,10 +949,10 @@
       "extension": "",
       "size": 128,
       "prettySize": "128 B",
-      "modifiedTime": "2019-04-17T22:36:58.453Z",
-      "accessTime": "2019-04-17T22:40:35.227Z",
-      "changeTime": "2019-04-17T22:36:58.453Z",
-      "birthTime": "2019-04-17T22:36:58.452Z",
+      "modifiedTime": "2019-04-17T22:42:55.262Z",
+      "accessTime": "2019-04-17T22:51:03.108Z",
+      "changeTime": "2019-04-17T22:42:55.262Z",
+      "birthTime": "2019-04-17T22:42:55.261Z",
       "root": "/",
       "dir": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src",
       "base": "images",
@@ -966,16 +966,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10594102,
+      "ino": 10638786,
       "blocks": 0,
-      "atimeMs": 1555540835227.2346,
-      "mtimeMs": 1555540618453.4434,
-      "ctimeMs": 1555540618453.4434,
-      "birthtimeMs": 1555540618452.1306,
-      "atime": "2019-04-17T22:40:35.227Z",
-      "mtime": "2019-04-17T22:36:58.453Z",
-      "ctime": "2019-04-17T22:36:58.453Z",
-      "birthtime": "2019-04-17T22:36:58.452Z"
+      "atimeMs": 1555541463108.3223,
+      "mtimeMs": 1555540975262.0664,
+      "ctimeMs": 1555540975262.0664,
+      "birthtimeMs": 1555540975260.9214,
+      "atime": "2019-04-17T22:51:03.108Z",
+      "mtime": "2019-04-17T22:42:55.262Z",
+      "ctime": "2019-04-17T22:42:55.262Z",
+      "birthtime": "2019-04-17T22:42:55.261Z"
     },
     "209ea930-5ebb-5c2f-b730-9c236912cde1": {
       "id": "209ea930-5ebb-5c2f-b730-9c236912cde1",
@@ -996,10 +996,10 @@
       "extension": "png",
       "size": 21212,
       "prettySize": "21.2 kB",
-      "modifiedTime": "2019-04-17T22:36:58.454Z",
-      "accessTime": "2019-04-17T22:38:25.117Z",
-      "changeTime": "2019-04-17T22:36:58.454Z",
-      "birthTime": "2019-04-17T22:36:58.453Z",
+      "modifiedTime": "2019-04-17T22:42:55.262Z",
+      "accessTime": "2019-04-17T22:49:49.563Z",
+      "changeTime": "2019-04-17T22:42:55.262Z",
+      "birthTime": "2019-04-17T22:42:55.262Z",
       "root": "/",
       "dir": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/images",
       "base": "gatsby-icon.png",
@@ -1013,16 +1013,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10594104,
+      "ino": 10638788,
       "blocks": 48,
-      "atimeMs": 1555540705116.9827,
-      "mtimeMs": 1555540618453.7605,
-      "ctimeMs": 1555540618453.7605,
-      "birthtimeMs": 1555540618453.4348,
-      "atime": "2019-04-17T22:38:25.117Z",
-      "mtime": "2019-04-17T22:36:58.454Z",
-      "ctime": "2019-04-17T22:36:58.454Z",
-      "birthtime": "2019-04-17T22:36:58.453Z"
+      "atimeMs": 1555541389563.116,
+      "mtimeMs": 1555540975262.2126,
+      "ctimeMs": 1555540975262.2126,
+      "birthtimeMs": 1555540975262.0535,
+      "atime": "2019-04-17T22:49:49.563Z",
+      "mtime": "2019-04-17T22:42:55.262Z",
+      "ctime": "2019-04-17T22:42:55.262Z",
+      "birthtime": "2019-04-17T22:42:55.262Z"
     },
     "9d5425c1-7d93-508c-85c2-f7efdef31676": {
       "id": "9d5425c1-7d93-508c-85c2-f7efdef31676",
@@ -1053,10 +1053,10 @@
       "extension": "png",
       "size": 167273,
       "prettySize": "167 kB",
-      "modifiedTime": "2019-04-17T22:36:58.453Z",
-      "accessTime": "2019-04-17T22:38:25.117Z",
-      "changeTime": "2019-04-17T22:36:58.453Z",
-      "birthTime": "2019-04-17T22:36:58.452Z",
+      "modifiedTime": "2019-04-17T22:42:55.262Z",
+      "accessTime": "2019-04-17T22:49:49.550Z",
+      "changeTime": "2019-04-17T22:42:55.262Z",
+      "birthTime": "2019-04-17T22:42:55.261Z",
       "root": "/",
       "dir": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/images",
       "base": "gatsby-astronaut.png",
@@ -1070,16 +1070,16 @@
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
-      "ino": 10594103,
+      "ino": 10638787,
       "blocks": 328,
-      "atimeMs": 1555540705116.9348,
-      "mtimeMs": 1555540618453.2666,
-      "ctimeMs": 1555540618453.2666,
-      "birthtimeMs": 1555540618452.19,
-      "atime": "2019-04-17T22:38:25.117Z",
-      "mtime": "2019-04-17T22:36:58.453Z",
-      "ctime": "2019-04-17T22:36:58.453Z",
-      "birthtime": "2019-04-17T22:36:58.452Z"
+      "atimeMs": 1555541389550.0303,
+      "mtimeMs": 1555540975261.8508,
+      "ctimeMs": 1555540975261.8508,
+      "birthtimeMs": 1555540975260.9963,
+      "atime": "2019-04-17T22:49:49.550Z",
+      "mtime": "2019-04-17T22:42:55.262Z",
+      "ctime": "2019-04-17T22:42:55.262Z",
+      "birthtime": "2019-04-17T22:42:55.261Z"
     },
     "5c11c8c5-5a67-5753-b56c-c372f3295290": {
       "id": "5c11c8c5-5a67-5753-b56c-c372f3295290",
@@ -1178,13 +1178,13 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "6904f8b1c486e1c0cd8d88aea5df42dd"
+    "PLUGINS_HASH": "48a99eb2dc8ba24ad778930c265c8982"
   },
   "componentDataDependencies": {
     "nodes": {
       "Site": [
-        "sq--src-components-layout-js",
-        "sq--src-components-seo-js"
+        "sq--src-components-seo-js",
+        "sq--src-components-layout-js"
       ],
       "8bcb540a-1d5b-58b6-b8d1-c286dcac6901": [
         "sq--src-components-image-js"
@@ -1212,7 +1212,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/404.js": {
       "componentPath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/404.js",
@@ -1221,7 +1221,7 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/index.js": {
       "componentPath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/index.js",
@@ -1229,7 +1229,7 @@
       "pages": [
         "/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     },
     "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/page-2.js": {
       "componentPath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/page-2.js",
@@ -1237,7 +1237,7 @@
       "pages": [
         "/page-2/"
       ],
-      "isInBootstrap": true
+      "isInBootstrap": false
     }
   },
   "staticQueryComponents": {
