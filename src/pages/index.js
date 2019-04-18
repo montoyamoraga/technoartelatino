@@ -12,7 +12,10 @@ const IndexPage = (props) => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h2>May 5th 2019, 2pm - 4:30pm</h2>
     <h3>At Princeton Public Library</h3>
-    <p>TechnoArte Latino is a multimedia art event featuring Latin artists currently living in United States who use cutting edge digital technologies as central part in their creative practices. The event will host talks and performances by renowned artists from the greater NYC area; and will take place at the Princeton Public Library, Princeton, New Jersey.</p>
+    <p>TechnoArte Latino is a free multimedia art event featuring Latin artists currently living in United States who use cutting edge digital technologies as central part in their creative practices. The event will host talks and performances by renowned artists from the greater NYC area; and will take place at the Princeton Public Library, Princeton, New Jersey.</p>
+
+    <p><a href="https://www.eventbrite.com/e/technoartelatino-tickets-60575987409">Free tickets through Eventbrite</a></p>
+
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
 
     </div>
@@ -51,7 +54,8 @@ const IndexPage = (props) => (
 
     <h1><a href="https://escenaconsejo.org/en/">Sejo</a></h1>
 
-    <Img fluid={props.data.michelle.childImageSharp.fluid} />
+
+    {/* <Img fluid={props.data.michelle.childImageSharp.fluid} /> */}
 
     <br/>
 
