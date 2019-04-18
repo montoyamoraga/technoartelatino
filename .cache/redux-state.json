@@ -923,12 +923,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-18T14:27:26.201Z",
+      "buildTime": "2019-04-18T14:57:54.774Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "1a18f4e6107718da4f3a42937b569d3d",
+        "contentDigest": "48eb8e962fd5704275427687760f7402",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -938,7 +938,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "723261a818bb30d92e415928eb483ffc",
+        "contentDigest": "e5a27481db0c1cbad79026970df8f869",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -947,11 +947,11 @@
       "absolutePath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/images",
       "relativePath": "",
       "extension": "",
-      "size": 416,
-      "prettySize": "416 B",
-      "modifiedTime": "2019-04-18T14:18:14.051Z",
-      "accessTime": "2019-04-18T14:27:28.766Z",
-      "changeTime": "2019-04-18T14:18:14.051Z",
+      "size": 448,
+      "prettySize": "448 B",
+      "modifiedTime": "2019-04-18T14:56:58.951Z",
+      "accessTime": "2019-04-18T14:57:56.926Z",
+      "changeTime": "2019-04-18T14:56:58.951Z",
       "birthTime": "2019-04-17T22:42:55.261Z",
       "root": "/",
       "dir": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src",
@@ -961,20 +961,20 @@
       "relativeDirectory": "..",
       "dev": 16777220,
       "mode": 16877,
-      "nlink": 13,
+      "nlink": 14,
       "uid": 501,
       "gid": 20,
       "rdev": 0,
       "blksize": 4096,
       "ino": 10638786,
       "blocks": 0,
-      "atimeMs": 1555597648765.9133,
-      "mtimeMs": 1555597094050.8381,
-      "ctimeMs": 1555597094050.8381,
+      "atimeMs": 1555599476925.5903,
+      "mtimeMs": 1555599418950.808,
+      "ctimeMs": 1555599418950.808,
       "birthtimeMs": 1555540975260.9214,
-      "atime": "2019-04-18T14:27:28.766Z",
-      "mtime": "2019-04-18T14:18:14.051Z",
-      "ctime": "2019-04-18T14:18:14.051Z",
+      "atime": "2019-04-18T14:57:56.926Z",
+      "mtime": "2019-04-18T14:56:58.951Z",
+      "ctime": "2019-04-18T14:56:58.951Z",
       "birthtime": "2019-04-17T22:42:55.261Z"
     },
     "209ea930-5ebb-5c2f-b730-9c236912cde1": {
@@ -1604,6 +1604,63 @@
         "owner": "gatsby-transformer-sharp"
       }
     },
+    "d1a84cf6-9dfd-5ba3-992e-6d8537a7399a": {
+      "id": "d1a84cf6-9dfd-5ba3-992e-6d8537a7399a",
+      "children": [
+        "5a5d1eba-ebd3-5dd9-98e3-b215477844cb"
+      ],
+      "parent": null,
+      "internal": {
+        "contentDigest": "aabff0d9afcb2a671a3bf9906923a9f6",
+        "type": "File",
+        "mediaType": "image/jpeg",
+        "description": "File \"src/images/sejo.jpg\"",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "images",
+      "absolutePath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/images/sejo.jpg",
+      "relativePath": "sejo.jpg",
+      "extension": "jpg",
+      "size": 184726,
+      "prettySize": "185 kB",
+      "modifiedTime": "2019-04-18T14:56:54.361Z",
+      "accessTime": "2019-04-18T14:57:00.283Z",
+      "changeTime": "2019-04-18T14:56:59.043Z",
+      "birthTime": "2019-04-18T14:56:54.348Z",
+      "root": "/",
+      "dir": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/images",
+      "base": "sejo.jpg",
+      "ext": ".jpg",
+      "name": "sejo",
+      "relativeDirectory": "",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4096,
+      "ino": 11202584,
+      "blocks": 368,
+      "atimeMs": 1555599420283.2307,
+      "mtimeMs": 1555599414360.8716,
+      "ctimeMs": 1555599419043.189,
+      "birthtimeMs": 1555599414347.613,
+      "atime": "2019-04-18T14:57:00.283Z",
+      "mtime": "2019-04-18T14:56:54.361Z",
+      "ctime": "2019-04-18T14:56:59.043Z",
+      "birthtime": "2019-04-18T14:56:54.348Z"
+    },
+    "5a5d1eba-ebd3-5dd9-98e3-b215477844cb": {
+      "id": "5a5d1eba-ebd3-5dd9-98e3-b215477844cb",
+      "children": [],
+      "parent": "d1a84cf6-9dfd-5ba3-992e-6d8537a7399a",
+      "internal": {
+        "contentDigest": "aabff0d9afcb2a671a3bf9906923a9f6",
+        "type": "ImageSharp",
+        "owner": "gatsby-transformer-sharp"
+      }
+    },
     "SitePage /404/": {
       "jsonName": "404-22d",
       "internalComponentName": "Component404",
@@ -1760,6 +1817,12 @@
       ],
       "9b46fa88-85c9-558c-ae55-e933acace6ae": [
         "/"
+      ],
+      "d1a84cf6-9dfd-5ba3-992e-6d8537a7399a": [
+        "/"
+      ],
+      "5a5d1eba-ebd3-5dd9-98e3-b215477844cb": [
+        "/"
       ]
     },
     "connections": {}
@@ -1769,7 +1832,7 @@
     "sq--src-components-layout-js": 755544856,
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "430/path---index-6a9-vMZnOlO20M77S1XcOmsiT6L6eY",
+    "index": "689/path---index-6a9-EkxODDsNF9d9NTTjz5T6pwVutBs",
     "page-2-fbc": "726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "sq--src-components-image-js": 2011440971,
     "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8"
@@ -1782,15 +1845,15 @@
         "/404/",
         "/404.html"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/index.js": {
       "componentPath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/index.js",
-      "query": "query usersMontoyamoragaGithubTechnoartelatinoTechnoartelatinoGithubIoSrcPagesIndexJs4270949313 {\n  aaron: file(relativePath: {eq: \"aaron.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  ari: file(relativePath: {eq: \"ari.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  cris: file(relativePath: {eq: \"cris.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  fanni: file(relativePath: {eq: \"fanni.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  martin: file(relativePath: {eq: \"martin.webp\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  michelle: file(relativePath: {eq: \"michelle.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  sharon: file(relativePath: {eq: \"sharon.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  flyer: file(relativePath: {eq: \"flyer.webp\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
+      "query": "query usersMontoyamoragaGithubTechnoartelatinoTechnoartelatinoGithubIoSrcPagesIndexJs3793244460 {\n  aaron: file(relativePath: {eq: \"aaron.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  ari: file(relativePath: {eq: \"ari.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  cris: file(relativePath: {eq: \"cris.png\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  fanni: file(relativePath: {eq: \"fanni.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  martin: file(relativePath: {eq: \"martin.webp\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  michelle: file(relativePath: {eq: \"michelle.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  sejo: file(relativePath: {eq: \"sejo.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  sharon: file(relativePath: {eq: \"sharon.jpg\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n  flyer: file(relativePath: {eq: \"flyer.webp\"}) {\n    childImageSharp {\n      fluid(maxWidth: 500) {\n        ...GatsbyImageSharpFluid\n      }\n    }\n  }\n}\n\nfragment GatsbyImageSharpFluid on ImageSharpFluid {\n  base64\n  aspectRatio\n  src\n  srcSet\n  sizes\n}\n",
       "pages": [
         "/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/page-2.js": {
       "componentPath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/pages/page-2.js",
@@ -1798,7 +1861,7 @@
       "pages": [
         "/page-2/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     },
     "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/.cache/dev-404-page.js": {
       "componentPath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/.cache/dev-404-page.js",
@@ -1806,7 +1869,7 @@
       "pages": [
         "/dev-404-page/"
       ],
-      "isInBootstrap": false
+      "isInBootstrap": true
     }
   },
   "staticQueryComponents": {

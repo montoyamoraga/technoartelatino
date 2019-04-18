@@ -55,7 +55,7 @@ const IndexPage = (props) => (
     <h1><a href="https://escenaconsejo.org/en/">Sejo</a></h1>
 
 
-    {/* <Img fluid={props.data.michelle.childImageSharp.fluid} /> */}
+    <Img fluid={props.data.sejo.childImageSharp.fluid} />
 
     <br/>
 
@@ -138,6 +138,13 @@ query {
     }
   }
   michelle: file(relativePath: { eq: "michelle.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  sejo: file(relativePath: { eq: "sejo.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 500) {
         ...GatsbyImageSharpFluid
