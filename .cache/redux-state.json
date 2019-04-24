@@ -911,12 +911,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-18T14:58:23.670Z",
+      "buildTime": "2019-04-24T21:54:41.030Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "68704ad728b7061b3de4e34f3aa36675",
+        "contentDigest": "601fce61ccfc1d1d4ed0307306c13f25",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -926,7 +926,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e4c99f1b4c284fd49e2b5dd818bdab4f",
+        "contentDigest": "8272b01248b0d7ba67009b8c3cf88221",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -937,9 +937,9 @@
       "extension": "",
       "size": 448,
       "prettySize": "448 B",
-      "modifiedTime": "2019-04-18T14:56:58.951Z",
-      "accessTime": "2019-04-18T14:58:25.525Z",
-      "changeTime": "2019-04-18T14:56:58.951Z",
+      "modifiedTime": "2019-04-24T21:53:41.467Z",
+      "accessTime": "2019-04-24T21:54:46.941Z",
+      "changeTime": "2019-04-24T21:53:41.467Z",
       "birthTime": "2019-04-17T22:42:55.261Z",
       "root": "/",
       "dir": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src",
@@ -956,13 +956,13 @@
       "blksize": 4096,
       "ino": 10638786,
       "blocks": 0,
-      "atimeMs": 1555599505525.271,
-      "mtimeMs": 1555599418950.808,
-      "ctimeMs": 1555599418950.808,
+      "atimeMs": 1556142886940.6445,
+      "mtimeMs": 1556142821467.2107,
+      "ctimeMs": 1556142821467.2107,
       "birthtimeMs": 1555540975260.9214,
-      "atime": "2019-04-18T14:58:25.525Z",
-      "mtime": "2019-04-18T14:56:58.951Z",
-      "ctime": "2019-04-18T14:56:58.951Z",
+      "atime": "2019-04-24T21:54:46.941Z",
+      "mtime": "2019-04-24T21:53:41.467Z",
+      "ctime": "2019-04-24T21:53:41.467Z",
       "birthtime": "2019-04-17T22:42:55.261Z"
     },
     "209ea930-5ebb-5c2f-b730-9c236912cde1": {
@@ -1075,63 +1075,6 @@
       "parent": "8bcb540a-1d5b-58b6-b8d1-c286dcac6901",
       "internal": {
         "contentDigest": "6d91c86c0fde632ba4cd01062fd9ccfa",
-        "type": "ImageSharp",
-        "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "87b91280-95fc-5294-8962-b9b822aeb9bc": {
-      "id": "87b91280-95fc-5294-8962-b9b822aeb9bc",
-      "children": [
-        "ca76a31b-9416-5afe-993c-9c0421da58ae"
-      ],
-      "parent": null,
-      "internal": {
-        "contentDigest": "7db170106dc91f3df7480b537524015e",
-        "type": "File",
-        "mediaType": "image/jpeg",
-        "description": "File \"src/images/michelle.jpg\"",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "images",
-      "absolutePath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/images/michelle.jpg",
-      "relativePath": "michelle.jpg",
-      "extension": "jpg",
-      "size": 62370,
-      "prettySize": "62.4 kB",
-      "modifiedTime": "2019-04-17T23:19:04.418Z",
-      "accessTime": "2019-04-17T23:30:21.740Z",
-      "changeTime": "2019-04-17T23:30:23.697Z",
-      "birthTime": "2019-04-17T23:19:04.417Z",
-      "root": "/",
-      "dir": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/src/images",
-      "base": "michelle.jpg",
-      "ext": ".jpg",
-      "name": "michelle",
-      "relativeDirectory": "",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4096,
-      "ino": 10742204,
-      "blocks": 128,
-      "atimeMs": 1555543821739.5737,
-      "mtimeMs": 1555543144418.3057,
-      "ctimeMs": 1555543823696.5344,
-      "birthtimeMs": 1555543144417.4224,
-      "atime": "2019-04-17T23:30:21.740Z",
-      "mtime": "2019-04-17T23:19:04.418Z",
-      "ctime": "2019-04-17T23:30:23.697Z",
-      "birthtime": "2019-04-17T23:19:04.417Z"
-    },
-    "ca76a31b-9416-5afe-993c-9c0421da58ae": {
-      "id": "ca76a31b-9416-5afe-993c-9c0421da58ae",
-      "children": [],
-      "parent": "87b91280-95fc-5294-8962-b9b822aeb9bc",
-      "internal": {
-        "contentDigest": "7db170106dc91f3df7480b537524015e",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
       }
@@ -1820,7 +1763,7 @@
     "sq--src-components-layout-js": 755544856,
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "404-22d": "820/path---404-22-d-bce-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "index": "689/path---index-6a9-EkxODDsNF9d9NTTjz5T6pwVutBs",
+    "index": "890/path---index-6a9-lPhRaWLgr2uU6qdCfWYG1BxQ4bw",
     "page-2-fbc": "726/path---page-2-fbc-5a8-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "sq--src-components-image-js": 2011440971,
     "404-html-516": "285/path---404-html-516-62a-0SUcWyAf8ecbYDsMhQkEfPzV8"
