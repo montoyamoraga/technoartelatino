@@ -26,16 +26,6 @@ const IndexPage = (props) => (
 
     <br />
 
-    <h1><a href="https://www.michellehessel.com">Michelle Hessel</a></h1>
-
-    <Img fluid={props.data.michelle.childImageSharp.fluid} />
-
-    <br/>
-
-    <p>Born in Sao Paulo, Brazil and currently living in NYC, Michelle is a multimedia artist & user experience designer working at ALICE. Her works have been featured at 'The Economist', 'VICE Media', 'Communication Arts', and more. She has participated at design and new media events in United States, Europe and Brazil. Michelle is interested in creating experiences that live at the intersection of design, storytelling, and technology.</p>
-
-    <br/>
-
     <h1><a href="https://cvalenzuelab.com">Cristobal Valenzuela</a></h1>
 
     <Img fluid={props.data.cris.childImageSharp.fluid} />

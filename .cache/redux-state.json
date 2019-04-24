@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "jsonName": "dev-404-page-5f9",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "isCreatedByStatefulCreatePages": true,
-      "context": {},
-      "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
-      "componentPath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": null,
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d9d244f931307563d3e3d89de2b70373",
-        "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -919,16 +909,14 @@
         "description": "Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.",
         "author": "@montoyamoraga"
       },
-      "port": 8000,
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-04-18T14:57:54.774Z",
+      "buildTime": "2019-04-18T14:58:23.670Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "48eb8e962fd5704275427687760f7402",
+        "contentDigest": "68704ad728b7061b3de4e34f3aa36675",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -938,7 +926,7 @@
       "children": [],
       "parent": null,
       "internal": {
-        "contentDigest": "e5a27481db0c1cbad79026970df8f869",
+        "contentDigest": "e4c99f1b4c284fd49e2b5dd818bdab4f",
         "type": "Directory",
         "description": "Directory \"src/images\"",
         "owner": "gatsby-source-filesystem"
@@ -950,7 +938,7 @@
       "size": 448,
       "prettySize": "448 B",
       "modifiedTime": "2019-04-18T14:56:58.951Z",
-      "accessTime": "2019-04-18T14:57:56.926Z",
+      "accessTime": "2019-04-18T14:58:25.525Z",
       "changeTime": "2019-04-18T14:56:58.951Z",
       "birthTime": "2019-04-17T22:42:55.261Z",
       "root": "/",
@@ -968,11 +956,11 @@
       "blksize": 4096,
       "ino": 10638786,
       "blocks": 0,
-      "atimeMs": 1555599476925.5903,
+      "atimeMs": 1555599505525.271,
       "mtimeMs": 1555599418950.808,
       "ctimeMs": 1555599418950.808,
       "birthtimeMs": 1555540975260.9214,
-      "atime": "2019-04-18T14:57:56.926Z",
+      "atime": "2019-04-18T14:58:25.525Z",
       "mtime": "2019-04-18T14:56:58.951Z",
       "ctime": "2019-04-18T14:56:58.951Z",
       "birthtime": "2019-04-17T22:42:55.261Z"
@@ -1860,14 +1848,6 @@
       "query": "",
       "pages": [
         "/page-2/"
-      ],
-      "isInBootstrap": true
-    },
-    "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/.cache/dev-404-page.js": {
-      "componentPath": "/Users/montoyamoraga/github/technoartelatino/technoartelatino.github.io/.cache/dev-404-page.js",
-      "query": "",
-      "pages": [
-        "/dev-404-page/"
       ],
       "isInBootstrap": true
     }
