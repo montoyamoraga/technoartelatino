@@ -14,6 +14,8 @@ const IndexPage = (props) => (
     <h3>At Princeton Public Library</h3>
     <p>TechnoArte Latino is a free multimedia art event featuring Latin artists currently living in United States who use cutting edge digital technologies as central part in their creative practices. The event will host talks and performances by renowned artists from the greater NYC area; and will take place at the Princeton Public Library, Princeton, New Jersey.</p>
 
+    <p>This event is in partnership with the <a href="https://princetonlibrary.org/">Princeton Public Library</a> with support from the National Endowment for the Humanities.</p>
+
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
 
     </div>
