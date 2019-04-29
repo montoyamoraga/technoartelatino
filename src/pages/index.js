@@ -34,14 +34,6 @@ const IndexPage = (props) => (
 
     <p>Cristobal is a technologist, artist and software developer from Chile and currently living in NYC who is interested in the intersection between artificial intelligence and creative tools. He is the director of Runway, researcher at New York University ITP, and co-founder of Latent Studio, a creative studio specializing in machine learning and artificial intelligence. He also contributes to OSS and helps maintain ml5.js. His work has been sponsored by Google and the Processing Foundation and his projects has been exhibited in Latin America and the US, including the Santiago Museum of Contemporary Art, ARS Electronica, GAM, Fundación Telefonica, Lollapalooza, NYC Media Lab, New Latin Wave, Inter-American Development Bank, Stanford University and New York University.</p>
 
-    <h1><a href="http://unoseistres.com">Sharon Lee De La Cruz</a></h1>
-
-    <Img fluid={props.data.sharon.childImageSharp.fluid} />
-
-    <br/>
-
-    <p>Sharon is an artist and activist of Latin descend from New York City. She earned a BFA from The Cooper Union, is a Fulbright scholar, and obtained her Masters at NYU’s ITP program (Interactive Telecommunications Program). Sharon’s work ranges from comics to interactive sculptures. She enjoys creating tools and activities that bridge the accessibility gap in STEM education. Sharon’s work is in the intersection of tech, art, and social justice. She currently lives in New Jersey and is the Assistant Director of The StudioLab, a creative tech lab, at Princeton University.</p>
-
     <h1><a href="https://escenaconsejo.org/en/">Sejo</a></h1>
 
 
