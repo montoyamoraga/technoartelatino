@@ -40,7 +40,9 @@ const IndexPage = (props) => (
 
     <br/>
 
-    <p> Francesca is a UX designer, videographer and creative coder. She is currently a Lead Teacher at the NYC FIRST STEM Center in Washington Heights. Her work is focused on storytelling and social justice. Her work has been exhibited at the Currents Festival, New Latin Wave Festival, and in Peru. She is a graduate from the Interactive Telecommunications Program at NYU.</p>
+    <br/>
+
+    <p>Francesca is a Peruvian multimedia designer, videographer and educator. She is passionate about storytelling and social justice, and uses her skills as a technologist to instigate dialogue around topics such as culture, identity and community. She has been exploring the linkages between weaving and computational thinking, creating pieces that translate oral stories into physical weavings that have been exhibited at the New Latin Wave Festival in New York and Festival Internacional de Arte Contemporáneo in Perú. She served as a researcher at the Technology Lab at BF+DA at Pratt University and has also facilitated different workshops about the intersection of weaving and coding, in places like Pioneer Works, Currents New Media Festival and the Brooklyn Museum. She is currently co-curating the exhibition “Beyond Punch Cards”, that will bring together artists challenging the common perceptions of weaving and coding, that will take place in Santa Fe, New Mexico this upcoming June. She is currently the Lead Teacher at the NYC FIRST STEM Center located in Washington Heights, where she develops curriculum and teaches STEM related subjects to low income communities.</p>
 
     <h1><a href="https://chsnec.eccs.world">Sejo</a></h1>
 
@@ -107,21 +109,21 @@ query {
   }
   cris: file(relativePath: { eq: "cris.png" }) {
     childImageSharp {
-      fluid(maxWidth: 100) {
+      fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   fanni: file(relativePath: { eq: "fanni.jpg" }) {
     childImageSharp {
-      fluid(maxWidth: 500) {
+      fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid
       }
     }
   }
   francesca: file(relativePath: { eq: "francesca.jpg" }) {
     childImageSharp {
-      fluid(maxWidth: 100) {
+      fluid(maxWidth: 1000) {
         ...GatsbyImageSharpFluid
       }
     }
