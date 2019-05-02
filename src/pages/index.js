@@ -34,14 +34,21 @@ const IndexPage = (props) => (
 
     <p>Cristobal is a technologist, artist and software developer from Chile and currently living in NYC who is interested in the intersection between artificial intelligence and creative tools. He is the director of Runway, researcher at New York University ITP, and co-founder of Latent Studio, a creative studio specializing in machine learning and artificial intelligence. He also contributes to OSS and helps maintain ml5.js. His work has been sponsored by Google and the Processing Foundation and his projects has been exhibited in Latin America and the US, including the Santiago Museum of Contemporary Art, ARS Electronica, GAM, Fundación Telefonica, Lollapalooza, NYC Media Lab, New Latin Wave, Inter-American Development Bank, Stanford University and New York University.</p>
 
-    <h1><a href="https://escenaconsejo.org/en/">Sejo</a></h1>
+    <h1><a href="http://www.franrodriguezsawaya.com/">Francesca Rodríguez-Sawaya</a></h1>
 
+    <Img fluid={props.data.francesca.childImageSharp.fluid} />
+
+    <br/>
+
+    <p> Francesca is a UX designer, videographer and creative coder. She is currently a Lead Teacher at the NYC FIRST STEM Center in Washington Heights. Her work is focused on storytelling and social justice. Her work has been exhibited at the Currents Festival, New Latin Wave Festival, and in Peru. She is a graduate from the Interactive Telecommunications Program at NYU.</p>
+
+    <h1><a href="https://chsnec.eccs.world">Sejo</a></h1>
 
     <Img fluid={props.data.sejo.childImageSharp.fluid} />
 
     <br/>
 
-    <p>Sejo is from Mexico and is the co-founder of 'Es cena con sejo', a multimedia artist group whose work focuses on movement, interaction and conversation. Their work is informed by performing arts, media arts, socially engaged art, as well as by free(libre) software, computation and digital systems. They aim to imagine and contribute to the construction of a world of solidarity.</p>
+    <p>Sejo is a digital artisan from Mexico City and NYC; currently creating choreographic computers as part of chsnec; co-founder and member of the eccs.world collective of interdisciplinary arts (& crafts) where they develop free cultural works using and/or building free (libre) software;</p>
 
     <h1><a href="http://www.ariciano.com">Ari Melenciano</a></h1>
 
@@ -100,7 +107,7 @@ query {
   }
   cris: file(relativePath: { eq: "cris.png" }) {
     childImageSharp {
-      fluid(maxWidth: 500) {
+      fluid(maxWidth: 100) {
         ...GatsbyImageSharpFluid
       }
     }
@@ -108,6 +115,13 @@ query {
   fanni: file(relativePath: { eq: "fanni.jpg" }) {
     childImageSharp {
       fluid(maxWidth: 500) {
+        ...GatsbyImageSharpFluid
+      }
+    }
+  }
+  francesca: file(relativePath: { eq: "francesca.jpg" }) {
+    childImageSharp {
+      fluid(maxWidth: 100) {
         ...GatsbyImageSharpFluid
       }
     }
