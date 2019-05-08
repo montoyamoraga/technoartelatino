@@ -52,15 +52,7 @@ const IndexPage = (props) => (
 
     <p>Sejo is a digital artisan from Mexico City and NYC; currently creating choreographic computers as part of chsnec; co-founder and member of the eccs.world collective of interdisciplinary arts (& crafts) where they develop free cultural works using and/or building free (libre) software;</p>
 
-    <h1><a href="http://www.ariciano.com">Ari Melenciano</a></h1>
-
-    <Img fluid={props.data.ari.childImageSharp.fluid} />
-
     <br/>
-
-    <p>Ari is an American-Dominican interdisciplinary artist, designer, creative technologist, researcher, educator and activist who is passionate about exploring the relationships between various forms of design and the human experience. Her research lies at the intersections of aesthetics, technology, art/design, psycho-geography, experiential design, pedagogy, geo-political activism, culture/humanities, speculative design, and imaginative uses of human-computer interaction technologies.</p>
-
-    <p>Her projects include being the founder of the creative house, bgoti; lifestyle movement, Be Gold On The Inside; building a line of experimental "neo-retro" digital analog cameras, Ojo Oro; founder and producer of the New Media Arts, Culture and Technology Festival, Afrotectopia; founder and director of Publics.School, a platform exploring experimental methods to disseminate social justice issues; founder of Justice Factory, an interactive data visualization tool for activists that was recently awarded the Processing.org Fellowship (2018) to build a data visualization platform using Processing; founder of AricianoTV, an online video tutorial channel on creative coding; and a VJ/DJ (in the duo, GVÖ), with a residency in Brooklyn, NYC.</p>
 
     <h1><a href="http://montoyamoraga.io">Aarón Montoya-Moraga</a></h1>
 
@@ -78,13 +70,7 @@ const IndexPage = (props) => (
 
     <p>Martin is a multimedia artist from Uruguay currently living in New Jersey. He is currently artist-in-residence at the 'Art and Artificial Intelligence Lab' at the Computer Science Department of Rutgers University. He was a Senior Research Assistant at the School of Creative Media, City University of Hong Kong; and previously attended the Interactive Telecommunications Program (ITP) at Tisch School of the Arts, New York University. He holds degrees in Plant Molecular Genetics from Rutgers University (PhD) and Tsukuba University (MS), and in Molecular Biology from the University of the Republic of Uruguay (BS). He conducted studies and works under the sponsorship of prestigious fellowships such as Fulbright (USA) and Monbukagakusho (Japan), and in 2012 received the Eileen Brennan Graduate Research Award from the department of Plant Biology & Pathology at Rutgers in recognition for his scientific output. Martin’s interest and work focuses on the integration of Art & Science, New Media Art and Tango, and artistic applications of Machine Learning and Artificial Intelligence. His work has been featured in CLOT Magazine, Interalia Magazine, and ART UNCOVERED radio podcast; whereas his texts have been published by NOEMA Magazine and Leonardo Journal. Martin's audiovisual work has been screened at MOTiF Film Festival and Proyecto Rotatoria. Prior to 'TechnoArte Latino', Martin's curatorial project included new media art & Uruguayan culture event at the Consulate General of Uruguay in New York City.</p>
 
-    <h1><a href="https://rumexinaction.com">Fanni Fazakas</a> (guest artist)</h1>
-
-    <Img fluid={props.data.fanni.childImageSharp.fluid} />
-
     <br/>
-
-    <p>Fanni manipulates and re-thinks the borders within what we manifest as human. She works across a range of media which includes and not limited to: video, sound, performance and installation. In all her work from interaction design to virtual reality it is clear that the core concept is key to it’s success. Each time she turn towards a new medium or subject she dedicates her time in deep analysis to building a strong approach.Fazakas graduated from Moholy-Nagy University of Art and Design where she studied Media Design, currently she is at New York University, ITP Master Program. These days her focus is on VR/AR/MR and film techniques, generative music and visual programming. She is working closely with a neuroscience team called MuArts to create interactive art and advertisement forms controlled by brainwaves. At the imPro Budapest School of Music Technology - she received extensive training in composing, sound design and engineering. She performed with her electronic Live Shows in Budapest, New York, Berlin, Umea, Rotterdam and Amsterdam at different Music Tech Festivals.</p>
 
   </Layout>
 )
